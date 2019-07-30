@@ -1,98 +1,39 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-.navbar{
-  background: #7ec0ee;
-  border: 0;
-}
 body{
-  background-color: #e5f2fb;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url(tst.jpg) no-repeat;
+  background-size: cover;
 }
 
-.navbar-brand{
-  font-weight: bold;
-  font-size: 1.5em;
-}
-.col-md-6 img{
-  width: 100%;
-  border-radius: 20px;
-}
-#top{
-  margin-top: 80px;
-}
-h1, h2, h3, h4, h5, h6 {
-    text-align: center;
-}
-.single{
-    width: 20%;
-    padding: 30px;
-    position: relative;
-    margin-left: 50px;
-}
-p{
-  font-size: 18px;
-  color: #6C7A89;
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4)
+  padding: 40px;
   text-align: center;
-
-}
-.top-right{
-  margin-top: 70px;
-}
-.item img{
-  width: 100%;
-}
-.cubes .col-md-4 {
-    width: 29%;
-    float: left;
-    margin: 2%;
-    padding: 1%;
-    position: relative;
-}
-.cubes p{
-  font-size: 1em;
-  margin: 10px;
-}
-.material-icons{
-  width: 130px;
-  height: 130px;
-  color: #2980b9;
-  margin-left:190px;
-}
-.client-section{
-  background-color: #F3F3F3;
-  display: block;
-  margin-top: 80px;
-}
-.empty{
-  padding: 20px;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
 }
 
-#box{
-  max-width: 100px;
-  max-height: 100px;
-  word-wrap: normal;
-  overflow-y: scroll;
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
 
-#infoblck{
-  margin-top: 50px;
-  margin-bottom: 50px;
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
 }
-.late{
-  margin-left: 210px;
+
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
 }
-.testimonal{
-  margin: 70px 130px;
-  padding: 30px;
-  background: #F3F3F3;
-  color: black;
-  border-radius: 10px;
-}
-.container-info1{
-  width: 100%;
-}
-.testimonal h4{
-  text-align: center;
-  color: lightgrey;
+
+.box p{
+  text-align: justify;
 }
